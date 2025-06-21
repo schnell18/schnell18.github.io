@@ -21,7 +21,7 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Software Engineer
+role: Software Engineer/Researcher
 
 # Organizations/Affiliations to display in Biography blox
 # organizations:
@@ -174,16 +174,26 @@ awards:
     summary: |
       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
-
 ## About Me
 
-Feng Zhang a.k.a Justin is an experienced software engineer and tech lead with
-a strong track record in building high-availability cloud-native
-micro-services. At UCloud, I led the development and operation of a managed
-Kubernetes service (UK8S) serving hundreds of customers as well as designed and
-implemented a data platform integrating MySQL, MongoDB, and RESTful APIs to
-enable cost analysis and revenue insights. At Ping An Good Doctor, I developed
-a high-performance BFF system handling 20M+ daily requests with sub-100ms
-latency, complemented by custom observability using Grafana and InfluxDB. My
-master research at AUT focused on LLM quantization, making AI runs faster with
-less resource consumption.
+Feng (a.k.a Justin) is a seasoned software engineer, AI researcher, and
+tech lead with proven track records on building high-availability
+cloud-native micro-services and making AI run faster with less resource
+consumption with LLM quantization technologies. Feng graduated from
+Auckland University of Technology as a research master of Computer and
+Information Sciences. He received his bachelor degree of Computer
+Science and Engineering from Tongji University. Between the two
+full-time studies, Feng had been working over two decades in software
+development and leadership roles at companies of diverse scales such as
+YesMobile, [Erry][2], MDCL, [QAD][3], [PingAn][4], [Yidu][5], and
+[UCloud][6]. Feng's research interests include LLM quantization,
+optimization, deep learning, generative AI. Feng is inspired daily by
+his wife, daughter, and chacha (an adopted stray cat). In his free time,
+Feng likes jogging, hiking, badminton and contributes to various
+open-source projects.
+
+[2]: https://www.erry.com
+[3]: https://www.qad.com
+[4]: https://www.pagd.net/allPage/aboutUs/47?lang=EN_US
+[5]: https://www.yiducloud.com.cn/
+[6]: https://www.ucloud-global.com/en

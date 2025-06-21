@@ -32,14 +32,19 @@ sections:
           parallax: false
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '🎯 Mission'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My mission is to harness cutting-edge technologies—such as
+        artificial intelligence—to build software and solutions
+        that empower businesses and communities to thrive. Along
+        the way, I strive to share insights and discoveries that
+        advance the craft of building such systems with greater
+        efficiency, intelligence, and impact.
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+      # Building impactful solutions with AI, cloud, and
+      # Kubernetes—sharing insights to advance efficient,
+      # intelligent development.
     design:
       columns: '1'
   - block: collection
