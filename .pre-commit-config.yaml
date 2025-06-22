@@ -21,6 +21,7 @@ repos:
     rev: v2.4.1
     hooks:
       - id: codespell
+        exclude: ^static/
 
   - repo: https://github.com/gklein/check_signoff
     rev: v1.0.5

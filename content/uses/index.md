@@ -28,7 +28,7 @@ other expensive brands.
 ![DIY PC](images/workstation.jpeg)
 This is a DIY PC with a powerful nVidia GeForce RTX 4090 GPU, a spacious
 server-grade RAM with a capacity of 192GiB, powerful Intel i9 14900KF CPU, two
-HP FX900 Pro 2T SSD, a 4T HDD. This workstation is good enough for serving
+HP FX900 Pro 2T SSDs, a 4T HDD. This workstation is good enough for serving
 small to medium LLMs for generative AI workloads. It is a staging environment
 to explore application requires significant computing demand before moving to
 cloud.
