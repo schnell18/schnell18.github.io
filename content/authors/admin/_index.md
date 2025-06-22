@@ -35,13 +35,13 @@ profiles:
     url: 'mailto:schnell18@gmail.com'
     label: E-mail Me
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: https://www.linkedin.com/in/tinkr/
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0009-0007-1891-6403
   - icon: brands/github
     url: https://github.com/schnell18
   - icon: brands/x
-    url: https://twitter.com/GetResearchDev
+    url: https://twitter.com/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/
   # - icon: brands/instagram
@@ -62,58 +62,152 @@ education:
     date_start: 2023-07-10
     date_end: 2025-05-21
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis on _Towards Superior Quantization for Large Language Models: The Mixed and Layer-sensitive Approaches_. Supervised by [Dr. Weihua Li](https://academics.aut.ac.nz/weihua.li) and [Dr. Yanbin Liu](https://academics.aut.ac.nz/yanbin.liu).
+
+      Award Received:
+      - 2024 AUT Summer Research Award
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
+      url: "http://hdl.handle.net/10292/19178"
   - area: Bachelor Computer Science and Engineering
     institution: Tongji University
     date_start: 1997-09-01
     date_end: 2001-07-01
     summary: |
-      GPA: 3.29/4.0
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      Award Received:
+      - 1999 Tongji University People’s Reward
+      - 2000 Tongji University People’s Reward
 work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
+  - position: Product Architect, Manager
+    company_name: UCloud
+    company_url: 'https://www.ucloud-global.com/en'
+    company_logo: 'ucloud.png'
+    date_start: 2021-09-21
+    date_end: 2023-06-30
+    summary: |-
       Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
+
+      - Lead the development and operation of UK8S, a managed Kubernetes service similar to EKS
+      - Lead the development of account, billing, API gateway, and developer tools
+      - Lead the quality team to implement a unified quality management platform
+  - position: Senior Architect
+    company_name: Yidu Cloud
+    company_url: 'https://www.yiducloud.com.cn/en/'
     company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2021-04-27
+    date_end: 2021-09-18
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Implement gRPC-based HMO micro-service to serve ToB customers
+      - Lead the SRE and DBA to maintain in-house private cloud and
+        build CI/CD pipeline on public cloud such as AWS and Azure
+  - position: Senior Backend Developer, Technical Manager
+    company_name: Ping An Good Doctor
+    company_url: 'https://www.pagd.net/?lang=en_us'
+    company_logo: ''
+    date_start: 2015-05-03
+    date_end: 2021-04-24
+    summary: |
+      Responsibilities include:
+      - engage with product managers and internal customers to analyze
+        business requirement and implement business modules such as goods,
+        trade, member benefits as micro-services.
+      - implement high performance(qps > 300, latency < 100ms), data
+        aggregation bff system to support the the low code initiative.
+      - assume tech lead role to review design, code and implement tdd and ci.
+      - Build internal developer tools
+  - position: Principal Software Engineer
+    company_name: QAD
+    company_url: 'https://www.qad.com'
+    company_logo: ''
+    date_start: 2006-06-26
+    date_end: 2015-04-24
+    summary: |
+      Responsibilities include:
+      - Implement auditing, unicode and timezone functions in QAD MFG/PRO.
+      - Maintain QAD ERP deployment tools MFG/Util, QDT, and conversion
+      - Design and implement QAD ERP license compliance assessment data
+        warehouse and ETL pipeline.
+      - Research QAD ERP database compatibility. Prototype Oracle and
+        SQL Server database support for QAD ERP standard and enterprise editions.
+      - Develop database utilities such as Progress database merge tool,
+        high performance data load tools with blob support based on
+        SQL*Loader and bcp.
+  - position: Senior Java Developer
+    company_name: MDCL Frontline
+    company_url: ''
+    company_logo: ''
+    date_start: 2005-04-01
+    date_end: 2006-04-24
+    summary: |
+      Responsibilities include:
+      - Deliver identity management and remote access solution
+        implementation based on Sun Microsystems's JES product suite
+        for customers such as UTStarcom.
+      - Deliver professional Java development service to Alibaba,
+        implement sub-modules in the projects to refactor B2B
+        frontend and back-office systems.
+  - position: Java Developer
+    company_name: Erry
+    company_url: 'https://www.erry.com'
+    company_logo: ''
+    date_start: 2002-07-08
+    date_end: 2005-03-31
+    summary: |
+      Responsibilities include:
+      - Develop distribution, promotion, job sheet management systems
+        using J2EE technologies for customers such as
+        Johnson&Johnson, Panda Electronics, Philips.
+  - position: Intern, Java Developer
+    company_name: YesMobile
+    company_url: ''
+    company_logo: ''
+    date_start: 2001-01-09
+    date_end: 2002-07-05
+    summary: |
+      Responsibilities include:
+      - Develop EMail to SMS Gateway
+      - On-site SMS solution implementation for various domestic customers
+
+
+
+# 2002/7—2005/3 Erry network technology as J2EE developer & architect
+# 2001/1—2002/7 YesMobile Shanghai Ltd as intern and software engineer
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
+      - name: Generative AI
+        description: ''
+        percent: 100
+        icon: python
+      - name: Cloud Computing
+        description: ''
+        percent: 80
+        icon: cloud
+      - name: Kubernetes
+        description: ''
+        percent: 80
+        icon: devicon/kubernetes
+      - name: Java
+        description: ''
+        percent: 80
+        icon: devicon/java
+      - name: Golang
+        description: ''
+        percent: 80
+        icon: devicon/go
       - name: Python
         description: ''
         percent: 80
-        icon: code-bracket
-      - name: Data Science
+        icon: python
+      - name: R
         description: ''
-        percent: 100
-        icon: chart-bar
+        percent: 80
+        icon: r
       - name: SQL
         description: ''
         percent: 40
@@ -122,6 +216,14 @@ skills:
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
+      - name: Jogging
+        description: ''
+        percent: 60
+        icon: running
+      - name: Badminton
+        description: ''
+        percent: 60
+        icon: badminton
       - name: Hiking
         description: ''
         percent: 60
@@ -136,43 +238,68 @@ skills:
         icon: camera
 
 languages:
-  - name: English
-    percent: 100
   - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
+    percent: 100
+  - name: English
+    percent: 80
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
+  - title: 'CKS: Certified Kubernetes Security Specialist'
+    certificate_url: 'https://www.credly.com/badges/8a98dfca-b526-4ef8-8c8c-3244ba93f5bb/linked_in_profile'
+    date: '2024-02-25'
+    awarder: The Linux Foundation
     summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
+      The CKS was created by the Linux Foundation and the Cloud Native
+      Computing Foundation (CNCF) as a part of their ongoing
+      effort to help develop the Kubernetes ecosystem. The exam is
+      online, proctored, performance-based test that requires
+      solving multiple tasks from a command line running
+      Kubernetes.
+  - title: 'CKA: Certified Kubernetes Administrator'
+    certificate_url: 'https://www.credly.com/badges/16762cb0-c523-4f5c-95a5-21f39e5c3e71'
+    date: '2022-02-14'
+    awarder: The Linux Foundation
     summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
+      The CKA was created by the Linux Foundation and the Cloud Native
+      Computing Foundation (CNCF) as a part of their ongoing
+      effort to help develop the Kubernetes ecosystem. The exam is
+      online, proctored, performance-based test that requires
+      solving multiple tasks from a command line running
+      Kubernetes.
+
+  - title: Project Management Professional (PMP)
+    date: '2013-06-01'
+    awarder: Project Management Institute
     summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+      The Project Management Professional (PMP) certification is a
+      globally recognized credential offered by the Project
+      Management Institute (PMI). It validates a professional’s
+      ability to lead and manage projects effectively across
+      industries.
+
+  - title: 'Certified ScrumMaster (CSM)'
+    date: '2013-03-21'
+    awarder: Scrum Alliance
+    summary: |
+      The Certified ScrumMaster® (CSM) certification is a widely
+      recognized credential offered by the Scrum Alliance. It
+      validates your understanding of Scrum principles, roles, and
+      practices, and prepares you to serve as a Scrum Master—a key
+      facilitator in agile teams.
+
+  - title: 'Red Hat Certified Engineer (RHCE)'
+    date: '2003-12-21'
+    awarder: Red Hat
+    summary: |
+      The Red Hat Certified Engineer (RHCE) certification is a respected
+      credential for experienced Linux system administrators,
+      offered by Red Hat. It demonstrates advanced knowledge in
+      managing and automating Red Hat Enterprise Linux systems.
+
 ---
 ## About Me
 

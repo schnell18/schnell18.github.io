@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: blue
+  color: teal
 
 # SEO
 marketing:
@@ -36,13 +36,14 @@ header:
     show_theme_chooser: true
     logo:
       text: ""
+      filename: ""
 
 # Site footer
 footer:
   copyright:
     notice: '© {year} Justin Zhang. All rights reserved.'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false
@@ -58,3 +59,5 @@ features:
     enable: false
   privacy_pack:
     enable: false
+
+show_related: true
