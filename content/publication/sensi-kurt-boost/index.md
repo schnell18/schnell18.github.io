@@ -8,7 +8,7 @@ authors:
   - Xiaodan Wang
   - Quan Bai
 date: "2025-03-09T00:00:00Z"
-doi: ""
+doi: "10.48550/arXiv.2503.06518"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: "2025-06-21T00:00:00Z"

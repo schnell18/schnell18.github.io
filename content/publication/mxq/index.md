@@ -18,7 +18,7 @@ author_notes:
 
 date: '2025-02-23T00:00:00Z'
 publishDate: "2025-06-20T00:00:00Z"
-doi: ''
+doi: '10.5220/0013159100003890'
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: '2017-01-01T00:00:00Z'
@@ -53,7 +53,7 @@ links:
 url_pdf: 'https://www.scitepress.org/Papers/2025/131591/131591.pdf'
 url_code: 'https://github.com/schnell18/hqq'
 url_dataset: 'https://www.kaggle.com/datasets/schnell18/mxq-quant-benchmark-results-on-llama'
-url_slides: ''
+url_slides: /slides/mxq/index.html
 # url_video: 'https://youtube.com'
 
 # Featured image
@@ -76,15 +76,12 @@ projects:
 #   Simply enter your slide deck's filename without extension.
 #   E.g. `slides: "example"` references `content/slides/example/index.md`.
 #   Otherwise, set `slides: ""`.
-slides: example
+slides: ""
 ---
 
 {{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+This paper is converted to HTML with identical viewing experience as its PDF
+counterpart. To read this paper in your browser, click VIEW PAPER. If you wish
+to stick with the PDF
+version, click the PDF link above.
 {{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
