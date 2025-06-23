@@ -14,7 +14,7 @@ main:
     url: post/
     weight: 14
   - name: Portfolio
-    url: experience/
+    url: portfolio/
     weight: 16
   - name: Experience
     url: experience/

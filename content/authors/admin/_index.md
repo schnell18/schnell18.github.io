@@ -303,7 +303,7 @@ awards:
 ---
 ## About Me
 
-Feng (a.k.a Justin) is a seasoned software engineer, AI researcher, and
+Feng Zhang (a.k.a Justin Zhang) is a seasoned software engineer, AI researcher, and
 tech lead with proven track records on building high-availability
 cloud-native micro-services and making AI run faster with less resource
 consumption with LLM quantization technologies. Feng graduated from
@@ -316,8 +316,8 @@ YesMobile, [Erry][2], MDCL, [QAD][3], [PingAn][4], [Yidu][5], and
 [UCloud][6]. Feng's research interests include LLM quantization,
 optimization, deep learning, generative AI. Feng is inspired daily by
 his wife, daughter, and chacha (an adopted stray cat). In his free time,
-Feng likes jogging, hiking, badminton and contributes to various
-open-source projects.
+Flocalenveng likes jogging, hiking, badminton and contributes to various
+[open-source projects](/projects).
 
 [2]: https://www.erry.com
 [3]: https://www.qad.com

@@ -80,8 +80,13 @@ slides: ""
 ---
 
 {{% callout note %}}
-This paper is converted to HTML with identical viewing experience as its PDF
-counterpart. To read this paper in your browser, click VIEW PAPER. If you wish
-to stick with the PDF
-version, click the PDF link above.
+This site hosts an HTML version of the original paper which was converted using
+[pdf2htmlex](https://pdf2htmlex.github.io/pdf2htmlEX/). We recommend you read
+the HTML version of the paper by clicking [_VIEW
+PAPER_](/papers/mxq/index.html) as it loads faster and replicates identical
+typography quality as its PDF counterpart. If you wish to stick with the PDF
+version, click the
+[_PDF_](https://www.scitepress.org/Papers/2025/131591/131591.pdf) link above.
+Click [_SLIDES_](/slides/mxq/index.html) to view the companion oval
+presentation slides.
 {{% /callout %}}

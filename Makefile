@@ -7,4 +7,5 @@ generate: img
 	hugo
 
 draft: img
+	rm -fr public resources
 	hugo server -D
