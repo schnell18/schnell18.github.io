@@ -1,14 +1,16 @@
 ---
-title: 🧠 Sharpen your thinking with a second brain
-summary: Create a personal knowledge base and share your knowledge with your peers.
+title: "🧠 Hugo: Online presence made easy"
+summary: Explains how to setup a static website for personal branding using Hugo.
 date: 2023-10-26
+draft: true
 authors:
   - admin
 tags:
-  - Second Brain
+  - Hugo
+  - Personal Website
   - Markdown
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com)'
+  caption: 'Image credit: [**Hugo Authors**](https://gohugo.io/)'
 ---
 
 Create a personal knowledge base and share your knowledge with your peers.
