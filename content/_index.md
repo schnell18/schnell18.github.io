@@ -1,6 +1,6 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ""
+title: "Home"
 date: 2022-10-24
 type: landing
 
@@ -21,15 +21,15 @@ sections:
     design:
       css_class: dark
       background:
-        color: black
+        # color: black
         image:
           # Add your image background to `assets/media/`.
           filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
+          # filters:
+          #   brightness: 1.0
           size: cover
           position: center
-          parallax: false
+          parallax: true
   - block: markdown
     content:
       title: '🎯 Mission'
