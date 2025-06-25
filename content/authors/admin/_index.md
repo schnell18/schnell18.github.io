@@ -64,6 +64,10 @@ education:
     summary: |
       Thesis on _Towards Superior Quantization for Large Language Models: The Mixed and Layer-sensitive Approaches_. Supervised by [Dr. Weihua Li](https://academics.aut.ac.nz/weihua.li) and [Dr. Yanbin Liu](https://academics.aut.ac.nz/yanbin.liu).
 
+      Academic Services:
+      - Teaching assistant for Java Programming and Big Data courses
+      - Subreviewer of PRICAI/ICA/PKAW 2024, WWW 2025 conferences
+
       Award Received:
       - 2024 AUT Summer Research Award
     button:
@@ -88,9 +92,9 @@ work:
     summary: |-
       Responsibilities include:
 
-      - Lead the development and operation of UK8S, a managed Kubernetes service similar to EKS
-      - Lead the development of account, billing, API gateway, and developer tools
-      - Lead the quality team to implement a unified quality management platform
+      - Lead the development and operation of UK8S, a managed Kubernetes service similar to EKS.
+      - Lead the development of account, billing, API gateway, and developer tools.
+      - Lead the quality team to implement a unified quality management platform.
   - position: Senior Architect
     company_name: Yidu Cloud
     company_url: 'https://www.yiducloud.com.cn/en/'
@@ -99,9 +103,10 @@ work:
     date_end: 2021-09-18
     summary: |
       Responsibilities include:
-      - Implement gRPC-based HMO micro-service to serve ToB customers
-      - Lead the SRE and DBA to maintain in-house private cloud and
-        build CI/CD pipeline on public cloud such as AWS and Azure
+      - Implement gRPC-based HMO micro-service to serve ToB customers.
+      - Lead the SRE and DBA to support a team of 30+ developers by developing
+        developer tools, maintaining in-house private cloud, and build
+        CI/CD pipeline on AWS and Azure.
   - position: Senior Backend Developer, Technical Manager
     company_name: Ping An Good Doctor
     company_url: 'https://www.pagd.net/?lang=en_us'
@@ -110,13 +115,13 @@ work:
     date_end: 2021-04-24
     summary: |
       Responsibilities include:
-      - engage with product managers and internal customers to analyze
+      - Engage with product managers and internal customers to analyze
         business requirement and implement business modules such as goods,
         trade, member benefits as micro-services.
-      - implement high performance(qps > 300, latency < 100ms), data
-        aggregation bff system to support the the low code initiative.
-      - assume tech lead role to review design, code and implement tdd and ci.
-      - Build internal developer tools
+      - Implement high performance(qps > 300, latency < 100ms), data
+        aggregation BFF system to support the the low code initiative.
+      - Assume tech lead role to review design, code and implement tdd and ci.
+      - Build internal developer tools.
   - position: Principal Software Engineer
     company_name: QAD
     company_url: 'https://www.qad.com'
@@ -125,6 +130,8 @@ work:
     date_end: 2015-04-24
     summary: |
       Responsibilities include:
+      - Implement Customer Version Control (CVC), a Git-based tool that manages
+        versions and deployments of customized QAD ERP codebase
       - Implement auditing, unicode and timezone functions in QAD MFG/PRO.
       - Maintain QAD ERP deployment tools MFG/Util, QDT, and conversion
       - Design and implement QAD ERP license compliance assessment data
@@ -167,8 +174,8 @@ work:
     date_end: 2002-07-05
     summary: |
       Responsibilities include:
-      - Develop EMail to SMS Gateway
-      - On-site SMS solution implementation for various domestic customers
+      - Develop EMail to SMS Gateway.
+      - Deliver on-site SMS solution implementation for various domestic customers.
 
 
 
@@ -303,21 +310,20 @@ awards:
 ---
 ## About Me
 
-Feng Zhang (a.k.a Justin Zhang) is a seasoned software engineer, AI researcher, and
-tech lead with proven track records on building high-availability
+Feng Zhang (a.k.a Justin Zhang) is a seasoned software engineer, AI researcher,
+and tech lead with proven track records on building high-availability
 cloud-native micro-services and making AI run faster with less resource
-consumption with LLM quantization technologies. Feng graduated from
-Auckland University of Technology as a research master of Computer and
-Information Sciences. He received his bachelor degree of Computer
-Science and Engineering from Tongji University. Between the two
-full-time studies, Feng had been working over two decades in software
-development and leadership roles at companies of diverse scales such as
-YesMobile, [Erry][2], MDCL, [QAD][3], [PingAn][4], [Yidu][5], and
-[UCloud][6]. Feng's research interests include LLM quantization,
-optimization, deep learning, generative AI. Feng is inspired daily by
-his wife, daughter, and chacha (an adopted stray cat). In his free time,
-Flocalenveng likes jogging, hiking, badminton and contributes to various
-[open-source projects](/projects).
+consumption with LLM quantization technologies. Feng graduated from Auckland
+University of Technology as a research master of Computer and Information
+Sciences. He received his bachelor degree of Computer Science and Engineering
+from Tongji University. Between the two full-time studies, Feng had been
+working over two decades in software development and leadership roles at
+companies of diverse scales such as YesMobile, [Erry][2], MDCL, [QAD][3],
+[PingAn][4], [Yidu][5], and [UCloud][6]. Feng's research interests include LLM
+quantization, optimization, deep learning, generative AI. Feng is inspired
+daily by his wife, daughter, and [chacha](/pics/chacha.jpg) (an adopted stray
+cat). In his free time, justin likes jogging, hiking, badminton and contributes
+to various [open-source projects](/projects).
 
 [2]: https://www.erry.com
 [3]: https://www.qad.com
