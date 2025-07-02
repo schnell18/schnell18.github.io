@@ -1,11 +1,31 @@
 #!/bin/bash
 
+function install_required_hugo {
+    REQUIRED_VER="0.145.0"
+    if command -v hugo; then
+        VER_STR=$(hugo version | cut -d' ' -f2)
+        VER=$VER_STR
+        if [[ $VER == "*-*" ]]; then
+            VER=$(echo $VER_STR | cut -d'-' -f1)
+        fi
+        if [[ $VER != "v$REQUIRED_VER" || ! $VER_STR =~ ".*extended" ]]; then
+            echo "Unsupported hugo version: $VER_STR, please install hugo $REQUIRED_VER extended" 1>&2
+            exit 2
+        fi
+    else
+        curl -sL -O --output-dir /tmp "https://github.com/gohugoio/hugo/releases/download/v$REQUIRED_VER/hugo_extended_${REQUIRED_VER}_darwin-universal.tar.gz"
+        tar -xzvf /tmp/hugo_extended_${REQUIRED_VER}_darwin-universal.tar.gz -C ~/.local/bin
+    fi
+}
+
 function check_python_pkg {
     python -c "import $1" >/dev/null 2>&1
 }
 
 # fail fast by exiting on first error
 set -e
+
+install_required_hugo
 
 # Install uv and create a project-scoped venv with pre-commit installed
 export PATH="$HOME/.local/bin:$PATH"
