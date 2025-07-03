@@ -3,6 +3,8 @@ title:  📈 Golang profiling made easy
 summary: This blog explains how Makefile can simplify the three types of profilings, CPU, Memory and Trace, for golang programs using a mandelbrot fractal generation as example.
 
 date: 2025-07-03
+authors:
+  - admin
 tags:
   - Golang
   - pprof
