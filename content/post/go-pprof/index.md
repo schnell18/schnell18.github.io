@@ -64,7 +64,7 @@ make pprof-viz-cpu
 When the above command completes, you should see the callgraph being displayed
 in the browser like:
 
-![Mandelbrot CPU profiling visuals](images/mandelbrot-cpu-pprof.png)
+![Mandelbrot CPU profiling visuals](images/mandelbrot-cpu-pprof.jpg)
 
 ## Memory profiling
 
@@ -94,7 +94,7 @@ make pprof-viz-mem
 When this command finishes, you should see the memory graph being displayed
 in the browser like:
 
-![Mandelbrot Memory visuals](images/mandelbrot-mem-pprof.png)
+![Mandelbrot Memory visuals](images/mandelbrot-mem-pprof.jpg)
 
 ## Trace profiling
 
@@ -123,7 +123,7 @@ make pprof-viz-trace
 When the previous command succeeds, you should see the trace being displayed
 in the browser like:
 
-![Mandelbrot Trace visuals](images/mandelbrot-trace-pprof.png)
+![Mandelbrot Trace visuals](images/mandelbrot-trace-pprof.jpg)
 
 ## Conclusion
 
