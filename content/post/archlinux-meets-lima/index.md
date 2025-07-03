@@ -181,17 +181,17 @@ inside the VM. The second user provision script in the previous YAML
 setup the SSH keys sharing as follows:
 
 ```sh
-      if ! grep "User git" ~/.ssh/config; then
-          HOST_USER=$(ls /Users)
-          cat<<EOF >> ~/.ssh/config
-      Host github.com
-        User git
-        Port 22
-        StrictHostKeyChecking no
-        PasswordAuthentication no
-        IdentityFile /Users/$HOST_USER/.ssh/id_ed25519
-      EOF
-      fi
+  if ! grep "User git" ~/.ssh/config; then
+      HOST_USER=$(ls /Users)
+      cat<<EOF >> ~/.ssh/config
+  Host github.com
+    User git
+    Port 22
+    StrictHostKeyChecking no
+    PasswordAuthentication no
+    IdentityFile /Users/$HOST_USER/.ssh/id_ed25519
+  EOF
+  fi
 ```
 
 This avoids duplicating the SSH keys in the ArchLinux VM. However, don't share
